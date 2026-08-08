@@ -1,0 +1,31 @@
+tnts:
+
+  nuke:
+    name: "&c&lЯдерная бомба"
+    lore:
+      - "&7Взрывается &c&lочень сильно&7."
+      - "&8Мощность: x3.0"
+    power-multiplier: 3.0 # сила взрыва
+    damage-multiplier: 2.5 # умножение урона от базового ТНТ
+    break-obsidian: false # может ли ломать обсидиан
+    fuse-seconds: 3.5 # время взрыва (в секундах)
+
+  breaker:
+    name: "&#FFAA00&lПробойник"
+    lore:
+      - "&7Ломает &6обсидиан&7."
+      - "&8Мощность: x1.5"
+    power-multiplier: 1.5
+    damage-multiplier: 1.2
+    break-obsidian: true
+    fuse-seconds: 2.0
+
+  firecracker:
+    name: "&e&lХлопушка"
+    lore:
+      - "&7Взрывается &eмгновенно&7."
+      - "&8Мощность: x0.5"
+    power-multiplier: 0.5
+    damage-multiplier: 0.3
+    break-obsidian: false
+    fuse-seconds: 0.5

@@ -1,0 +1,18 @@
+name: funtnt
+version: '${project.version}'
+main: net.ilypluggy.funtnt.main
+api-version: '1.16'
+authors: [ root@squad ]
+description: Кастомный TNT с настраиваемой силой взрыва, радиусом урона игрокам и таймером фитиля.
+
+commands:
+  customtnt:
+    description: Управление кастомным TNT
+    aliases: [ctnt, funtnt]
+    usage: /funtnt <give|list|reload>
+    permission: funtnt.admin
+
+permissions:
+  funtnt.admin:
+    description: Полный доступ к командам FunTNT
+    default: op

@@ -1,2 +1,1 @@
-custom tnt from funtime
-claude code used
+custom tnt from funtime 
